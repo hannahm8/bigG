@@ -1,6 +1,6 @@
 import numpy as np
 
-import symmPValue
+
 import computePercentile
 import pValue
 
@@ -15,7 +15,7 @@ def readInData(filename):
 # read in data
 expG, expGSigma = readInData('../data/experimentValues.dat')
 
-theoryG = 6.674
+theoryG = 6.675
 
 
 percentiles = computePercentile.getPercentile(theoryG, expG, expGSigma)

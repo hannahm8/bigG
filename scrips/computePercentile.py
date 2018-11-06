@@ -20,4 +20,5 @@ def symmPercentile(value):
     return (2.*(min(value,1.-value)))
 
 
-print getPercentile(.13, 0.4, 0.9)
+
+#print getPercentile(.13, 0.4, 0.9)
