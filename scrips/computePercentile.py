@@ -17,7 +17,8 @@ def getPercentile(theoryG, experimentalG, sigmaExperimentalG):
 
 # returns the summetric p value from the integration value
 def symmPercentile(value):
-    return (2.*(min(value,1.-value)))
+    return 1-(2.*(min(value,1.-value)))
+    #return ((max(value,1.-value)))
 
 
 
