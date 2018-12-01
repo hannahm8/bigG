@@ -39,7 +39,7 @@ print 'pvalues as a fn of theory G: ', pValues
 
 plt.plot(theoryGRange,pValues,lw=2,color='r')
 #plt.ysc
-#plt.show()
+plt.show()
 
 
 
