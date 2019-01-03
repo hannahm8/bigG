@@ -63,7 +63,7 @@ def main():
     ax.errorbar(expNumberZero*5, expG, yerr=expGSigma, fmt='o', lw=1)
     ax.set_ylim(6.671,6.676)
     #plt.tight_layout()
-    #plt.show()
+    plt.show()
 
 
 if __name__ == '__main__':

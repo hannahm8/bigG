@@ -18,6 +18,6 @@ def computePValues(Gs,sigmas,theoryGs):
     symmPercentiles = [ computePercentile.symmPercentile(p) for p in percentiles ]
 
     # compute the overall p-value
-    pVals[j] = pValue.getOverallPValue(symmPercentiles,'chi2')
+    pVals[j] = pValue.getOverallPValue(symmPercentiles,'ks')
 
   return pVals
